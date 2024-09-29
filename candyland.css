@@ -5,14 +5,14 @@ body{
     font-family: "Quicksand", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400; 
     margin: 0;
 }
 
 /*header stuff here*/
 header{
-    background-color: #000;
+    background-color: #FFD5D4;
     padding: 1rem 2vw;
     display: flex;
     align-items: flex-end;
@@ -24,16 +24,16 @@ header img{
     border:2px solid #000;
 }
 header h1{
-    font-family: "Titan-one", sans-serif;
-    font-weight: 700;
+    font-family: "Titan One", sans-serif;
+    font-weight: 500;
     font-style: normal;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
-    color: #fff;
+    color: #000;
 }
 header p{
     margin: 0 3vw;
-    color: #fff;
+    color: #000;
     letter-spacing: 1px;
 }
 
@@ -77,7 +77,7 @@ header p{
     
     nav{
         background-color: #fff;
-        border: 3px solid #B84B27;
+        border: 3px solid #509BE1;
     
     }
     nav ul {
@@ -87,16 +87,16 @@ header p{
         display: flex;
     }
     nav a{
-        font: 1.1rem;
+        font: 2rem;
         text-decoration: none;
-        color: #B84B27;
+        color: #509BE1;
         font-weight: 700;
         display: block;
         padding: .83rem 2rem;
     }
     nav li.active a{
-        background-color: #B84B27;
-        background-image: linear-gradient(to bottom, #B84B27, #a6401e);
+        background-color: #509BE1;
+        background-image: linear-gradient(to bottom, #71b3f1, #408dd4);
         color: #fff;
         
         border-radius: .7rem;
@@ -114,8 +114,8 @@ main h1{
     font-family: "Titan One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3rem;
-    color: #B84B27;
+    font-size: 2.5rem;
+    color: #509BE1;
 }
 main h2{
     font-family: "Lilita One", sans-serif;
@@ -140,7 +140,7 @@ main dl{
     padding: .5rem 3vw;
 }
 main dl dt {
-    color: #B84B27;
+    color: #509BE1;
     font-weight: 900;
 }
 main dl dd{
@@ -160,14 +160,14 @@ main address{
     font-style: normal;
     padding: .5rem;
     width: 22rem;
-    border: 3px solid #B84B27;
+    border: 3px solid #509BE1;
     border-radius: .5rem;
 }
 main a {
-    color: #B84B27;
+    color: #509BE1;
 }
 main a.button {
-    background-color: #B84B27;
+    background-color: #509BE1;
     color: #fff;
     border-radius: .5rem;
     padding: 0.25vw 2vw;
@@ -178,8 +178,8 @@ main a:hover{
 }
 main a.button:hover{
     background-color: #fff;
-    color: #B84B27;
-    border: 1px solid #B84B27;
+    color: #509BE1;
+    border: 1px solid #509BE1;
     border-radius: .5rem;
 }
 
