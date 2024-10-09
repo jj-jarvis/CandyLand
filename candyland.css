@@ -66,8 +66,8 @@ header p{
     }
     
     nav .active a {
-        background-color: #B84B27;
-        background-image: linear-gradient(to bottom, #B84B27, #a6401e);
+        background-color: #509BE1;
+        gradient(to bottom, #B84
         color: #fff;
     }
 } /*end of media query*/
