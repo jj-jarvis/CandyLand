@@ -20,9 +20,7 @@ header{
 header div{
     padding-left: 2vw;
 }
-header img{
-    border:2px solid #000;
-}
+
 header h1{
     font-family: "Titan One", sans-serif;
     font-weight: 500;
@@ -57,7 +55,7 @@ header p{
         padding: .8rem;
         font-size: 1rem;
         text-decoration: none;
-        color: #B84B27;
+        color: #509BE1;
         background-color: #fff;
         font-weight: 700;
         text-transform: uppercase;
@@ -67,7 +65,7 @@ header p{
     
     nav .active a {
         background-color: #509BE1;
-        gradient(to bottom, #B84
+        background-image: linear-gradient(to bottom, #5c9fdf, #458bcc);
         color: #fff;
     }
 } /*end of media query*/
@@ -108,7 +106,7 @@ header p{
 
 /*main stuff*/
 main {
-    padding: 1rem 2vw;
+    padding: 2rem 5vw;
 }
 main h1{
     font-family: "Titan One", sans-serif;
@@ -158,10 +156,11 @@ main ul li{
 }
 main address{
     font-style: normal;
-    padding: .5rem;
+    padding: 1rem;
     width: 22rem;
-    border: 3px solid #509BE1;
+   border: 3px solid #509BE1;
     border-radius: .5rem;
+    margin: 1rem 0 0 .5vw;
 }
 main a {
     color: #509BE1;
@@ -190,4 +189,17 @@ main a.button:hover{
 .banner img{
     width: 100%;
   height: auto;
+}
+
+/* footer shit */
+footer{
+    clear: both;
+    background-color: #7abaf742;
+    text-align: center;
+    color: #222;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a{
+    color: #961448;
 }
